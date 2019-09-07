@@ -1,7 +1,6 @@
 /* 
  * Autor: Matheus Guedes Crispim
  * Email: matheus.guedes@dce.ufpb.br
- * Contato: (83)9.9917-2286
  * 
  * */
 #include <stdlib.h>  
@@ -82,9 +81,8 @@ class Tolerancia{
 		else if(tol==20){
 			cout << "Sem Cor";
 		}
-		}//end method
-	
-	};//end class
+	}//end method
+};//end class
 
 int main (void){
     
@@ -147,10 +145,7 @@ int main (void){
 			
 			cout <<", ";
 			cout <<"Ouro";
-			
-		} else
-        {
-	
+		}else{
 			char char_vl1[0];
 			sprintf(char_vl1, "%c", str[0]);
 			int vl1=atoi(char_vl1);
@@ -273,13 +268,6 @@ int main (void){
 		Tolerancia *tole;
 		tole=new Tolerancia(itol);
 		
-		cout <<"\n";
-		
-		
-		}//end if
-
-
+		cout <<"\n";		
+	}//end if
 }
-
-
-
