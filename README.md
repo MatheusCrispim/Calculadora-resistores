@@ -5,7 +5,7 @@
 OS X & Linux:
 
 ```
-g++ cores_resistores.cpp -o calculadora_de_cores
+g++ cores_resistores.cpp -o calculadora_de_cores.bin
 ```
 
 ### Runnig
